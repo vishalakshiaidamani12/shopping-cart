@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <header>
+        <h1>flipkart</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="products">
+            <h2>Available Products</h2>
+            <div class="product" data-id="1" data-name="Product 1" data-price="300">
+                <img src="pp.jpg"  alt="Product 1">
+                <h3>new type water bottle</h3>
+                <p>Price: $300</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2" data-name="Product 2" data-price="999">
+                <img src="img.jpg"  alt="Product 1">
+                <h3>stylish bag</h3>
+                <p>total Price: $999</p>
+                <p>discount:20%</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3" data-name="Product 3" data-price="1000">
+                <img src="fg.jpg"  alt="Product 1">
+                <h3>baby frock</h3>
+                <p>total Price: $1000</p>
+                <p>discount:5%</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="4" data-name="Product 4 " data-price="2000">
+                <img src="pots.jpg"  alt="Product 1">
+                <h3>pots</h3>
+                <p>total Price: $2000</p>
+                <p>discount:20%</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+       </section>
+
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price">Total: $0.00</p>
+            <button id="checkout">Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Online Store. All rights reserved.</p>
+    </footer>
+
+    <script src="sc.js"></script>
+</body>
+</html>
